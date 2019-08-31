@@ -31,7 +31,7 @@ var start = 22 // Permets de définir à partir de combien de secondes la vidéo
 
 var img = "Logo.png" // Le nom de fichier du logo de votre serveur (* Il doit se situer dans le dossier : Assets/IMG *)
 
-var Discord_link = "https://discord.gg/evM85CY" // Lien de vôtre server Discord
+var Discord_link = "https://discord.gg/4tpVfDv" // Lien de vôtre server Discord
 
 var red_text = 'California' // Texte en rouge
 var blue_text = 'Island' // Texte en bleu
