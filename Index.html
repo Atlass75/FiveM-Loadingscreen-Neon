@@ -13,6 +13,8 @@
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 	<link rel="stylesheet" type="text/css" href="http://cdn.plyr.io/3.3.21/plyr.css">
 
+	<hta:application applicationname="HTA Test" scroll="yes" singleinstance="yes">
+
 	<style>
 		td, th {
 			text-align: left;
@@ -79,7 +81,7 @@
 				</tr>
 				<tr>
 					<td>
-						Discord : <a id="DiscordLink" target="_blank" href=""></a>
+						Discord : <a id="DiscordLink" href=""></a>
 					</td>
 				</tr>
 			</table>
@@ -142,7 +144,13 @@
 			document.onclick = ftrue;
 		}
 	</script>
-
+	<script>
+		$("#DiscordLink").click(function( event ) {
+			event.preventDefault()
+			var shell = new ActiveXObject("WScript.Shell");
+     		shell.run("http://www.google.com");
+		})
+	</script>
 	<script type="text/javascript">
 		$(document).mousemove(function (e) {
 			$("#cursor").css({
