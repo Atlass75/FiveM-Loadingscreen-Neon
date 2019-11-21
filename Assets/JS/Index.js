@@ -237,3 +237,6 @@ if (mp3_player === true) {
 		document.getElementById("audio1").src = ""
 	}, 2000)
 }
+
+var plL = document.getElementById('plwrap');
+new SimpleBar(plL, { autoHide: true });

@@ -93,6 +93,14 @@ canvas {
     color: aqua;
 }
 
+#plwrap {
+	max-height: 400px;
+}
+
+.simplebar-scrollbar:before {
+    background-color: rgb(255, 255, 255) !important;
+}
+
 #OpenMusic {
     width: 30px;
     height: 30px;
